@@ -64,7 +64,7 @@ void setup()
 // ---------------------------------------------------------------------
 // LoRaWAN module Init and configuration
 // ---------------------------------------------------------------------
-    delay(1000); // delay needed for the module to be ready to initialize.
+    delay(8000); // delay needed for the module to be ready to initialize.
     
     //Init of the LoRaWAN module - Red light if error, Green light if Ok 
     if(Objenious.Init(&Serial) != ARM_ERR_NONE)
